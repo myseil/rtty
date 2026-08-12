@@ -26,7 +26,7 @@ target_include_directories(rtty PRIVATE
     ${LIBEV_INCLUDE_DIR}
     ${LIBINIH_INCLUDE_DIRS}
 )
-target_link_libraries(rtty PRIVATE ${LIBEV_LIBRARY} ${LIBINIH_LIBRARIES} util crypt m)
+target_link_libraries(rtty PRIVATE ${LIBEV_LIBRARY} ${LIBINIH_LIBRARIES} util m)
 
 add_subdirectory(ssl)
 
